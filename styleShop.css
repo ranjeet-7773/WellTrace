@@ -1,0 +1,45 @@
+
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+content {
+    background-image: url("ImageGallery/petLove.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+}
+h2
+{
+    text-align: center;
+    padding-top: 1%;
+    color: white;
+}
+
+.faded-text{
+    position: absolute;
+    /* user-select: none; */
+    font-size: 7rem;
+    color: rgb(11, 11, 11);
+
+    bottom: -10%;
+    left: 8%;
+    font-weight: bold;
+    transition: all 3s;
+}
+
+
+
